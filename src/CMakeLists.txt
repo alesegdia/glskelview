@@ -34,6 +34,7 @@ endif(GLEW_FOUND)
 if(FLTK_FOUND)
 	include_directories(${FLTK_INCLUDE_DIR})
 	target_link_libraries(practicavg ${FLTK_LIBRARIES})
+	target_link_libraries(practicavg -ldl -lrt -lX11 -lXxf86vm -lXrandr -lpthread -lXi)
 endif(FLTK_FOUND)
 
 # GLFW
