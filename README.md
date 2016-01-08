@@ -1,16 +1,26 @@
 # glskelview
 
-3D animation editor and viewer for educational purposes.
+OpenGL animation editor and viewer for educational purposes.
 
-## Building and running
+## Getting
 
 ```
 git clone https://github.com/alesegdia/glskelview.git
+```
+
+## Building
+
+```
 cd glskelview
 mkdir build
 cd build
 cmake ..
 make
+```
+
+## Running
+
+```
 cd ..
 ./practicavg
 ```
